@@ -1,15 +1,15 @@
 
-Otwieramy plik 'dzialanie_1.m'
-Plik działanie_1 umożliwia pełną konfigurację parametrów uczenia, symulacji oraz modelu wahadła, chyba że w poszczególnych miejscach zaznaczone jest inaczej.
+Otwieramy plik "dzialanie_1.m"
+Plik "działanie_1" umożliwia pełną konfigurację parametrów uczenia, symulacji oraz modelu wahadła, chyba że w poszczególnych miejscach zaznaczone jest inaczej.
 w linijce 10 mamy do wyboru:
 albo stworzyć sieć od początku i nauczyć ją według zadanego kryterium punktowego
-lub skorzystać z jednej z sieci zapisanej w formie pliku .mat przechowywancych w pliku o nazwie 'savedAgents'.
+lub skorzystać z jednej z sieci zapisanej w formie pliku .mat przechowywancych w pliku o nazwie "savedAgents".
 
 Kolejno w skrypcie definiowane sa parametry fizyczne wahadła oraz wartość momentu siły pojedyńczej akcji.
 Momenty bezwładności ramion są wyliczane automatycznie na podstawie zdefiniowanych w skrypcie wzorów
 W parametrach symulacji ważne jest ustalenie punktowego kryterium końca treningu (-150 powinien spełniać wymagania poprawnego sterowania, zawsze można dać więcej np. -120 w celu maksymalizacji osiągów)
 
-Program uruchamiamy klikając'Run'.
+Program uruchamiamy klikając 'Run'.
 
 Powinen otworzyc się Simulink wraz z oknem wizualizacji wahadła oraz z oknem oscyloskopu
 Wyświetlany jest również okno z wykresami aktualnego postepu uczenia sieci 
@@ -25,6 +25,6 @@ w prawym górnym rogu okna 'Scope' znajduje sie legenda i możemy poprez naciśn
 
 Klikamy nastepnie 'Run' w zakładce 'Simulation' w oknie Simulinka i obserwujemy działanie nauczonej sieci
 
-Sieci przechowywane są w workspace wewątrz klasy Agenta (a), pod nazwą nn(sieć Q) oraz nn_target(sieć celu). Zawierają one współczynniki nauczonych wag sieci.
+Sieci przechowywane są w workspace wewątrz klasy Agenta (a), pod nazwą "nn(sieć Q)" oraz "nn_target(sieć celu)". Zawierają one współczynniki wag sieci.
 
 W razie niedopowiedzenia czegoś komentarze zawarte w skryptach powinny większość wyjaśnić.
